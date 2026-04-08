@@ -1,0 +1,17 @@
+{
+  "name": "Chinese-English Typography",
+  "icon": "normalize.svg",
+  "identifier": "wang.denis.popclip.extension.chinese-english-typography",
+  "description": "将中英文混排文本规范化：处理中英文间距、数字与单位、中文标点、引用符号和全角数字。",
+  "popclipVersion": 4069,
+  "options": [
+    {
+      "identifier": "normalizeCornerQuotes",
+      "type": "boolean",
+      "label": "将弯引号替换为直角引号",
+      "description": "启用后，将中文语境中的“”‘’和相关直引号优先规范为「」『』。",
+      "default value": true
+    }
+  ],
+  "module": "main.js"
+}

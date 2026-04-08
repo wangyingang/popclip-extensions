@@ -1,0 +1,10 @@
+{
+  "name": "popclip-extensions",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "mkdir -p Chinese-English-Typography.popclipext/lib && cp packages/zh-mixed-typography/index.js Chinese-English-Typography.popclipext/lib/zhMixedTypography.js && cp Normalize.popclipext/normalize.svg Chinese-English-Typography.popclipext/normalize.svg",
+    "test": "bun test",
+    "verify": "bun run build && bun test"
+  }
+}
