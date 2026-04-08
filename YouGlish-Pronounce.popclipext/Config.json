@@ -1,0 +1,7 @@
+{
+  "name": "YouGlish-Pronounce",
+  "icon": "preserve-color file:youglish.png",
+  "url": "https://youglish.com/pronounce/***/english",
+  "regex": "^[A-Za-z][A-Za-z'-]*$",
+  "clean query": true
+}

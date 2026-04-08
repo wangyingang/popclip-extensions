@@ -1,0 +1,9 @@
+{
+  "name": "Normalize Text",
+  "icon": "normalize.svg",
+  "identifier": "wang.denis.popclip.extension.normalize-text",
+  "description": "将中英文混排不规范的文字内容替换为规范处理后的文字内容。按住 Shift (⇧) 键不替换，而是添加到原内容下。",
+
+  "popclipVersion": 4069,
+  "module": "normalize.js"
+}
